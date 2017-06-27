@@ -45,17 +45,17 @@ class SideViewController: UIViewController, UIImagePickerControllerDelegate, UIN
     }
     
     @IBAction func cam(_ sender: UIButton) {
-    /*
+    
         let imageUrl:URL = URL(string: imageUrlString)!
         
         let imageData:NSData = NSData(contentsOf: imageUrl)!
-        let imageView = UIImageView(frame: CGRect(x:0, y:0, width:200, height:200))
-        imageView.center = self.view.center
+        let imageView = UIImageView(frame: CGRect(x:10, y:100, width:300, height:300))
+    //    imageView.center = self.view.center
         
         let image = UIImage(data: imageData as Data)
         imageView.image = image
         imageView.contentMode = UIViewContentMode.scaleAspectFit
-      */
+      
         //let image = UIImage(named: carImage)
         //let imageView = UIImageView (named: image!)
         
@@ -63,7 +63,7 @@ class SideViewController: UIViewController, UIImagePickerControllerDelegate, UIN
             imagePicker.cameraCaptureMode = .photo
             imagePicker.allowsEditing = false
             imagePicker.modalPresentationStyle = .fullScreen
-      //      imagePicker.cameraOverlayView = imageView
+            imagePicker.cameraOverlayView = imageView
             present(imagePicker, animated: true, completion: nil)
     }
     
