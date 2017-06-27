@@ -12,6 +12,8 @@
 		DCF1F0381F013D9500FA98C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCF1F0361F013D9500FA98C9 /* Main.storyboard */; };
 		DCF1F03A1F013D9500FA98C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCF1F0391F013D9500FA98C9 /* Assets.xcassets */; };
 		DCF1F03D1F013D9500FA98C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCF1F03B1F013D9500FA98C9 /* LaunchScreen.storyboard */; };
+		DCF1F0451F01B10200FA98C9 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF1F0441F01B10200FA98C9 /* File.swift */; };
+		DCF1F0471F01BC3000FA98C9 /* SideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF1F0461F01BC3000FA98C9 /* SideViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		DCF1F0391F013D9500FA98C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DCF1F03C1F013D9500FA98C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DCF1F03E1F013D9500FA98C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCF1F0441F01B10200FA98C9 /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		DCF1F0461F01BC3000FA98C9 /* SideViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +61,11 @@
 				DCF1F0321F013D9500FA98C9 /* AppDelegate.swift */,
 				DCF1F0341F013D9500FA98C9 /* ViewController.swift */,
 				DCF1F0361F013D9500FA98C9 /* Main.storyboard */,
+				DCF1F0461F01BC3000FA98C9 /* SideViewController.swift */,
 				DCF1F0391F013D9500FA98C9 /* Assets.xcassets */,
 				DCF1F03B1F013D9500FA98C9 /* LaunchScreen.storyboard */,
 				DCF1F03E1F013D9500FA98C9 /* Info.plist */,
+				DCF1F0441F01B10200FA98C9 /* File.swift */,
 			);
 			path = PriceCheck1;
 			sourceTree = "<group>";
@@ -138,7 +144,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				DCF1F0351F013D9500FA98C9 /* ViewController.swift in Sources */,
+				DCF1F0451F01B10200FA98C9 /* File.swift in Sources */,
 				DCF1F0331F013D9500FA98C9 /* AppDelegate.swift in Sources */,
+				DCF1F0471F01BC3000FA98C9 /* SideViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +271,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = JZ2AEZ4H8B;
 				INFOPLIST_FILE = PriceCheck1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = loverend.PriceCheck1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -276,6 +285,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = JZ2AEZ4H8B;
 				INFOPLIST_FILE = PriceCheck1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = loverend.PriceCheck1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
