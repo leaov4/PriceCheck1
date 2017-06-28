@@ -12,8 +12,14 @@
 		DCF1F0381F013D9500FA98C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCF1F0361F013D9500FA98C9 /* Main.storyboard */; };
 		DCF1F03A1F013D9500FA98C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCF1F0391F013D9500FA98C9 /* Assets.xcassets */; };
 		DCF1F03D1F013D9500FA98C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCF1F03B1F013D9500FA98C9 /* LaunchScreen.storyboard */; };
-		DCF1F0451F01B10200FA98C9 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF1F0441F01B10200FA98C9 /* File.swift */; };
 		DCF1F0471F01BC3000FA98C9 /* SideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF1F0461F01BC3000FA98C9 /* SideViewController.swift */; };
+		DCF1F04B1F02725200FA98C9 /* PriceCheckCar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF1F04A1F02725200FA98C9 /* PriceCheckCar.swift */; };
+		DCF1F04D1F0273A600FA98C9 /* PriceCheckCarDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF1F04C1F0273A600FA98C9 /* PriceCheckCarDetailViewController.swift */; };
+		DCF1F04F1F02751B00FA98C9 /* AddPriceCheckCarDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF1F04E1F02751B00FA98C9 /* AddPriceCheckCarDelegate.swift */; };
+		DCF1F0511F0275EC00FA98C9 /* MyCarsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF1F0501F0275EC00FA98C9 /* MyCarsTableViewController.swift */; };
+		DCF1F0531F027A8700FA98C9 /* AddPriceCheckCarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF1F0521F027A8700FA98C9 /* AddPriceCheckCarViewController.swift */; };
+		DCF1F0551F03C95E00FA98C9 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF1F0541F03C95D00FA98C9 /* LoginViewController.swift */; };
+		DCF1F0571F03D0E700FA98C9 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF1F0561F03D0E700FA98C9 /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,8 +30,14 @@
 		DCF1F0391F013D9500FA98C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DCF1F03C1F013D9500FA98C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DCF1F03E1F013D9500FA98C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DCF1F0441F01B10200FA98C9 /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		DCF1F0461F01BC3000FA98C9 /* SideViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideViewController.swift; sourceTree = "<group>"; };
+		DCF1F04A1F02725200FA98C9 /* PriceCheckCar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PriceCheckCar.swift; sourceTree = "<group>"; };
+		DCF1F04C1F0273A600FA98C9 /* PriceCheckCarDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PriceCheckCarDetailViewController.swift; sourceTree = "<group>"; };
+		DCF1F04E1F02751B00FA98C9 /* AddPriceCheckCarDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddPriceCheckCarDelegate.swift; path = ../AddPriceCheckCarDelegate.swift; sourceTree = "<group>"; };
+		DCF1F0501F0275EC00FA98C9 /* MyCarsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCarsTableViewController.swift; sourceTree = "<group>"; };
+		DCF1F0521F027A8700FA98C9 /* AddPriceCheckCarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPriceCheckCarViewController.swift; sourceTree = "<group>"; };
+		DCF1F0541F03C95D00FA98C9 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		DCF1F0561F03D0E700FA98C9 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,7 @@
 		DCF1F0311F013D9500FA98C9 /* PriceCheck1 */ = {
 			isa = PBXGroup;
 			children = (
+				DCF1F04E1F02751B00FA98C9 /* AddPriceCheckCarDelegate.swift */,
 				DCF1F0321F013D9500FA98C9 /* AppDelegate.swift */,
 				DCF1F0341F013D9500FA98C9 /* ViewController.swift */,
 				DCF1F0361F013D9500FA98C9 /* Main.storyboard */,
@@ -65,7 +78,12 @@
 				DCF1F0391F013D9500FA98C9 /* Assets.xcassets */,
 				DCF1F03B1F013D9500FA98C9 /* LaunchScreen.storyboard */,
 				DCF1F03E1F013D9500FA98C9 /* Info.plist */,
-				DCF1F0441F01B10200FA98C9 /* File.swift */,
+				DCF1F04A1F02725200FA98C9 /* PriceCheckCar.swift */,
+				DCF1F04C1F0273A600FA98C9 /* PriceCheckCarDetailViewController.swift */,
+				DCF1F0501F0275EC00FA98C9 /* MyCarsTableViewController.swift */,
+				DCF1F0521F027A8700FA98C9 /* AddPriceCheckCarViewController.swift */,
+				DCF1F0541F03C95D00FA98C9 /* LoginViewController.swift */,
+				DCF1F0561F03D0E700FA98C9 /* ProfileViewController.swift */,
 			);
 			path = PriceCheck1;
 			sourceTree = "<group>";
@@ -143,9 +161,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCF1F0551F03C95E00FA98C9 /* LoginViewController.swift in Sources */,
+				DCF1F0511F0275EC00FA98C9 /* MyCarsTableViewController.swift in Sources */,
+				DCF1F0571F03D0E700FA98C9 /* ProfileViewController.swift in Sources */,
 				DCF1F0351F013D9500FA98C9 /* ViewController.swift in Sources */,
-				DCF1F0451F01B10200FA98C9 /* File.swift in Sources */,
+				DCF1F04D1F0273A600FA98C9 /* PriceCheckCarDetailViewController.swift in Sources */,
+				DCF1F04B1F02725200FA98C9 /* PriceCheckCar.swift in Sources */,
+				DCF1F04F1F02751B00FA98C9 /* AddPriceCheckCarDelegate.swift in Sources */,
 				DCF1F0331F013D9500FA98C9 /* AppDelegate.swift in Sources */,
+				DCF1F0531F027A8700FA98C9 /* AddPriceCheckCarViewController.swift in Sources */,
 				DCF1F0471F01BC3000FA98C9 /* SideViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
