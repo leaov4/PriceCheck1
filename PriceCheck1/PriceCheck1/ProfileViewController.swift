@@ -8,21 +8,42 @@
 
 import UIKit
 
+
 class ProfileViewController: UIViewController {
 
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var dealershipCodeLabel: UILabel!
+    @IBOutlet weak var dealershipNameLabel: UILabel!
+    @IBOutlet weak var addressLabel: UILabel!
     
     let defaults = UserDefaults.standard
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        let dealershipCodeValue = defaults.string(forKey: "DealerCode")
         
-        dealershipCodeLabel.text = dealershipCodeValue
     }
 
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated) // No need for semicolon
+        
+        let name = defaults.string(forKey: defaultsKeys.keyName)
+        nameLabel.text = " Name: \(name!) "
+        
+        let code = defaults.string(forKey: defaultsKeys.keyCode)
+        dealershipCodeLabel.text = "Dealership Code: \(code!)"
+        
+      
+        let dealershipName1 = defaults.string(forKey: defaultsKeys.keyDealershipName)
+        dealershipNameLabel.text = "Dealership Name: \(dealershipName1!)"
+       
+        
+        let address1 = defaults.string(forKey: defaultsKeys.keyAddress)
+        addressLabel.text = "Address: \(address1!)"
+       
+    }
+    
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

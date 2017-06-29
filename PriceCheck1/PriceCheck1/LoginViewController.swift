@@ -8,28 +8,41 @@
 
 import UIKit
 
+
+struct defaultsKeys {
+    static let keyCode = "Code"
+    static let keyName = "Name"
+    static let keyDealershipName = "DealershipName"
+    static let keyAddress = "Address"
+  
+}
+
 class LoginViewController: UIViewController {
 
     @IBOutlet weak var dealerCode: UITextField!
     
-    let defaults = UserDefaults.standard
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        self.hideKeyboardWhenTappedAround()
         
-        defaults.set(dealerCode.text, forKey : "DealerCode")
-        
-    }
-
-    
+        let defaults = UserDefaults.standard
+        if let dealerCodeValue = defaults.string(forKey: defaultsKeys.keyCode){
+            dealerCode.text = dealerCodeValue
+        }
+    }  
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
 
+    @IBAction func submit(_sender: UIButton) {
+        
+        let defaults = UserDefaults.standard
+        defaults.setValue(dealerCode.text, forKey: defaultsKeys.keyCode)
+        
+    }
     /*
     // MARK: - Navigation
 
@@ -39,5 +52,6 @@ class LoginViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
-
 }
+
+

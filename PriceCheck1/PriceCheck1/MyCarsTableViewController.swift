@@ -16,8 +16,8 @@ class MyCarsTableViewController: UITableViewController, AddPriceCheckCarDelegate
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        let car1 = PriceCheckCar(make: "Jeep", model: "Wrangler", year: "2009", price: "$15,000")
-        cars.append(car1!)
+        // let car1 = PriceCheckCar(make: "Jeep", model: "Wrangler", year: "2009", price: "$15,000")
+        // cars.append(car1!)
         
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
