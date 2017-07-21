@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "A3D28DCF0BFEF8E45F064964B9ED9AB6861C3AA5",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "6B2FAA2462EC03D8EF80A0CE79629243CCEA0E0E" : 9223372036854775807,
+    "A3D28DCF0BFEF8E45F064964B9ED9AB6861C3AA5" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "9BE08869-2257-4B35-ACF8-6F235FE78002",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "6B2FAA2462EC03D8EF80A0CE79629243CCEA0E0E" : "",
+    "A3D28DCF0BFEF8E45F064964B9ED9AB6861C3AA5" : "PriceCheck1\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "PriceCheck1",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "PriceCheck1\/PriceCheck1.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:leaov4\/hello-world.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6B2FAA2462EC03D8EF80A0CE79629243CCEA0E0E"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:leaov4\/PriceCheck1.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A3D28DCF0BFEF8E45F064964B9ED9AB6861C3AA5"
+    }
+  ]
+}

@@ -21,6 +21,10 @@ class ProfileViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        nameLabel.text = "Name"
+        dealershipCodeLabel.text = "Dealership Code"
+        dealershipNameLabel.text = "Dealership Name"
+        addressLabel.text = "Location"
         
     }
 
@@ -28,21 +32,31 @@ class ProfileViewController: UIViewController {
         super.viewWillAppear(animated) // No need for semicolon
         
         let name = defaults.string(forKey: defaultsKeys.keyName)
-        nameLabel.text = " Name: \(name!) "
+        if name == nil {
+            nameLabel.text = "Name"
+        } else {
+        nameLabel.text = "Name: \(name!) "
+        }
         
         let code = defaults.string(forKey: defaultsKeys.keyCode)
         dealershipCodeLabel.text = "Dealership Code: \(code!)"
         
-      
+    
         let dealershipName1 = defaults.string(forKey: defaultsKeys.keyDealershipName)
+        if dealershipName1 == nil {
+            dealershipNameLabel.text = "Dealership Name"
+        } else {
         dealershipNameLabel.text = "Dealership Name: \(dealershipName1!)"
        
+        }
         
         let address1 = defaults.string(forKey: defaultsKeys.keyAddress)
+        if address1 == nil {
+            addressLabel.text = "Location"
+        } else {
         addressLabel.text = "Address: \(address1!)"
-       
+        }
     }
-    
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

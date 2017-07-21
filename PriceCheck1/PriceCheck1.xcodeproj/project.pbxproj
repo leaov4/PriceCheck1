@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		DC092BEA1F04F1290058F1D4 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC092BE91F04F1290058F1D4 /* SettingsViewController.swift */; };
+		DC092BEC1F0D2A8B0058F1D4 /* NewAddCarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC092BEB1F0D2A8B0058F1D4 /* NewAddCarViewController.swift */; };
 		DCF1F0331F013D9500FA98C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF1F0321F013D9500FA98C9 /* AppDelegate.swift */; };
 		DCF1F0351F013D9500FA98C9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF1F0341F013D9500FA98C9 /* ViewController.swift */; };
 		DCF1F0381F013D9500FA98C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCF1F0361F013D9500FA98C9 /* Main.storyboard */; };
 		DCF1F03A1F013D9500FA98C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCF1F0391F013D9500FA98C9 /* Assets.xcassets */; };
 		DCF1F03D1F013D9500FA98C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCF1F03B1F013D9500FA98C9 /* LaunchScreen.storyboard */; };
-		DCF1F0471F01BC3000FA98C9 /* SideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF1F0461F01BC3000FA98C9 /* SideViewController.swift */; };
 		DCF1F04B1F02725200FA98C9 /* PriceCheckCar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF1F04A1F02725200FA98C9 /* PriceCheckCar.swift */; };
 		DCF1F04D1F0273A600FA98C9 /* PriceCheckCarDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF1F04C1F0273A600FA98C9 /* PriceCheckCarDetailViewController.swift */; };
 		DCF1F04F1F02751B00FA98C9 /* AddPriceCheckCarDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF1F04E1F02751B00FA98C9 /* AddPriceCheckCarDelegate.swift */; };
@@ -25,6 +25,7 @@
 
 /* Begin PBXFileReference section */
 		DC092BE91F04F1290058F1D4 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		DC092BEB1F0D2A8B0058F1D4 /* NewAddCarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewAddCarViewController.swift; sourceTree = "<group>"; };
 		DCF1F02F1F013D9500FA98C9 /* PriceCheck1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PriceCheck1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCF1F0321F013D9500FA98C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DCF1F0341F013D9500FA98C9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -32,7 +33,6 @@
 		DCF1F0391F013D9500FA98C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DCF1F03C1F013D9500FA98C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DCF1F03E1F013D9500FA98C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DCF1F0461F01BC3000FA98C9 /* SideViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideViewController.swift; sourceTree = "<group>"; };
 		DCF1F04A1F02725200FA98C9 /* PriceCheckCar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PriceCheckCar.swift; sourceTree = "<group>"; };
 		DCF1F04C1F0273A600FA98C9 /* PriceCheckCarDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PriceCheckCarDetailViewController.swift; sourceTree = "<group>"; };
 		DCF1F04E1F02751B00FA98C9 /* AddPriceCheckCarDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddPriceCheckCarDelegate.swift; path = ../AddPriceCheckCarDelegate.swift; sourceTree = "<group>"; };
@@ -76,17 +76,17 @@
 				DCF1F0321F013D9500FA98C9 /* AppDelegate.swift */,
 				DCF1F0341F013D9500FA98C9 /* ViewController.swift */,
 				DCF1F0361F013D9500FA98C9 /* Main.storyboard */,
-				DCF1F0461F01BC3000FA98C9 /* SideViewController.swift */,
 				DCF1F0391F013D9500FA98C9 /* Assets.xcassets */,
 				DCF1F03B1F013D9500FA98C9 /* LaunchScreen.storyboard */,
 				DCF1F03E1F013D9500FA98C9 /* Info.plist */,
+				DCF1F0521F027A8700FA98C9 /* AddPriceCheckCarViewController.swift */,
 				DCF1F04A1F02725200FA98C9 /* PriceCheckCar.swift */,
 				DCF1F04C1F0273A600FA98C9 /* PriceCheckCarDetailViewController.swift */,
 				DCF1F0501F0275EC00FA98C9 /* MyCarsTableViewController.swift */,
-				DCF1F0521F027A8700FA98C9 /* AddPriceCheckCarViewController.swift */,
 				DCF1F0541F03C95D00FA98C9 /* LoginViewController.swift */,
 				DCF1F0561F03D0E700FA98C9 /* ProfileViewController.swift */,
 				DC092BE91F04F1290058F1D4 /* SettingsViewController.swift */,
+				DC092BEB1F0D2A8B0058F1D4 /* NewAddCarViewController.swift */,
 			);
 			path = PriceCheck1;
 			sourceTree = "<group>";
@@ -169,12 +169,12 @@
 				DC092BEA1F04F1290058F1D4 /* SettingsViewController.swift in Sources */,
 				DCF1F0571F03D0E700FA98C9 /* ProfileViewController.swift in Sources */,
 				DCF1F0351F013D9500FA98C9 /* ViewController.swift in Sources */,
+				DC092BEC1F0D2A8B0058F1D4 /* NewAddCarViewController.swift in Sources */,
 				DCF1F04D1F0273A600FA98C9 /* PriceCheckCarDetailViewController.swift in Sources */,
 				DCF1F04B1F02725200FA98C9 /* PriceCheckCar.swift in Sources */,
 				DCF1F04F1F02751B00FA98C9 /* AddPriceCheckCarDelegate.swift in Sources */,
 				DCF1F0331F013D9500FA98C9 /* AppDelegate.swift in Sources */,
 				DCF1F0531F027A8700FA98C9 /* AddPriceCheckCarViewController.swift in Sources */,
-				DCF1F0471F01BC3000FA98C9 /* SideViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

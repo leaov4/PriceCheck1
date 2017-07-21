@@ -21,7 +21,6 @@ class LoginViewController: UIViewController {
 
     @IBOutlet weak var dealerCode: UITextField!
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.hideKeyboardWhenTappedAround()
@@ -43,6 +42,7 @@ class LoginViewController: UIViewController {
         defaults.setValue(dealerCode.text, forKey: defaultsKeys.keyCode)
         
     }
+    
     /*
     // MARK: - Navigation
 
